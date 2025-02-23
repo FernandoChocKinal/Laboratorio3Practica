@@ -1,0 +1,89 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "CATEGORIA",
+    "collectionId": "7d3f9233-9eaf-40e9-98f3-44662f33fdae",
+    "dateExported": "2025-02-23T19:24:09.521Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a4194a36-e4d1-45e7-903d-f33563a0c8ee",
+            "colId": "7d3f9233-9eaf-40e9-98f3-44662f33fdae",
+            "containerId": "",
+            "name": "agregarCategoria",
+            "url": "http://localhost:3000/gestorDeOpiniones/v1/Categoria/agregarCategoria",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-02-23T19:07:05.287Z",
+            "modified": "2025-02-23T19:12:34.045Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JiNjRiNDJkMzBiMDhjNTVkMjhhMWYiLCJpYXQiOjE3NDAzMzU2MjksImV4cCI6MTc0MDM1MzYyOX0.zqpJT7ordwItITl88hCvvgnotF3C2qqLvEHnecCOMmI"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Rock 'n' Roll\",\n  \"descripcion\": \"Espacio para los amantes del rock 'n' roll.\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "aae02d9a-8e19-429d-962b-e7ae81054bf6",
+            "colId": "7d3f9233-9eaf-40e9-98f3-44662f33fdae",
+            "containerId": "",
+            "name": "listarCategoria",
+            "url": "http://localhost:3000/gestorDeOpiniones/v1/Categoria/getCategoria/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-02-23T19:13:05.487Z",
+            "modified": "2025-02-23T19:16:45.660Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JiNjRiNDJkMzBiMDhjNTVkMjhhMWYiLCJpYXQiOjE3NDAzMzU2MjksImV4cCI6MTc0MDM1MzYyOX0.zqpJT7ordwItITl88hCvvgnotF3C2qqLvEHnecCOMmI"
+                }
+            ]
+        },
+        {
+            "_id": "66b0adb0-39fd-42ea-bbc4-0bc350a3f651",
+            "colId": "7d3f9233-9eaf-40e9-98f3-44662f33fdae",
+            "containerId": "",
+            "name": "actualizarCategoria",
+            "url": "http://localhost:3000/gestorDeOpiniones/v1/Categoria/actualizarCategoria/67bb64b42d30b08c55d28a22",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2025-02-23T19:15:15.471Z",
+            "modified": "2025-02-23T19:16:38.461Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JiNjRiNDJkMzBiMDhjNTVkMjhhMWYiLCJpYXQiOjE3NDAzMzU2MjksImV4cCI6MTc0MDM1MzYyOX0.zqpJT7ordwItITl88hCvvgnotF3C2qqLvEHnecCOMmI"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"Deportes\",\n  \"descripcion\": \"Ven a observar la sección de Deportes\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "8780c713-4c66-49fa-a64a-d9b03b3912a4",
+            "colId": "7d3f9233-9eaf-40e9-98f3-44662f33fdae",
+            "containerId": "",
+            "name": "eliminarCategoria",
+            "url": "http://localhost:3000/gestorDeOpiniones/v1/Categoria/eliminarCategoria/67bb64b42d30b08c55d28a22",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2025-02-23T19:17:27.336Z",
+            "modified": "2025-02-23T19:18:40.775Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JiNjRiNDJkMzBiMDhjNTVkMjhhMWYiLCJpYXQiOjE3NDAzMzU2MjksImV4cCI6MTc0MDM1MzYyOX0.zqpJT7ordwItITl88hCvvgnotF3C2qqLvEHnecCOMmI"
+                }
+            ]
+        }
+    ],
+    "ref": "RpwMNNpNsVENIcCJFPpPY2LhBHWmcwTKTjjCZL0vhcZb6f08zASU-6oJtX-J9dkesGql2HQV4zgEEKf19C1gsQ"
+}

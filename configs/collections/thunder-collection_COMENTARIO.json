@@ -1,0 +1,77 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "COMENTARIO",
+    "collectionId": "3aa6d096-a0de-464a-8128-6c0a64e02b45",
+    "dateExported": "2025-02-23T19:49:09.680Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "4bc472fa-1d69-41a9-ba77-e812b851ae68",
+            "colId": "3aa6d096-a0de-464a-8128-6c0a64e02b45",
+            "containerId": "",
+            "name": "agregarComentario",
+            "url": "http://localhost:3000/gestorDeOpiniones/v1/Comentario/agregarComentario",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-02-23T19:41:59.407Z",
+            "modified": "2025-02-23T19:45:44.820Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JiNjRiNDJkMzBiMDhjNTVkMjhhMWYiLCJpYXQiOjE3NDAzMzU2MjksImV4cCI6MTc0MDM1MzYyOX0.zqpJT7ordwItITl88hCvvgnotF3C2qqLvEHnecCOMmI"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"usuario\": \"67bb6f71f7886a22b2905ec4\",\n  \"texto\": \"Gracias por el consejo xd\",\n  \"publicacion\": \"67bb787d2bad443ef7912170\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "52f0df3f-10e7-4d9e-9bf3-a52e2cf90c53",
+            "colId": "3aa6d096-a0de-464a-8128-6c0a64e02b45",
+            "containerId": "",
+            "name": "editarComentario",
+            "url": "http://localhost:3000/gestorDeOpiniones/v1/Comentario/editarComentario/67bb7ae8a5a0c5f57577e68f",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2025-02-23T19:42:08.272Z",
+            "modified": "2025-02-23T19:47:03.786Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JiNjRiNDJkMzBiMDhjNTVkMjhhMWYiLCJpYXQiOjE3NDAzMzU2MjksImV4cCI6MTc0MDM1MzYyOX0.zqpJT7ordwItITl88hCvvgnotF3C2qqLvEHnecCOMmI"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"usuario\": \"67bb6f71f7886a22b2905ec4\",\n  \"texto\": \"Gracias por ese gradioso consejo\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "00d3488c-e849-43c1-918e-6ce3c6979652",
+            "colId": "3aa6d096-a0de-464a-8128-6c0a64e02b45",
+            "containerId": "",
+            "name": "eliminarComentario",
+            "url": "http://localhost:3000/gestorDeOpiniones/v1/Comentario/eliminarComentario/67bb7abba5a0c5f57577e689",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2025-02-23T19:42:30.303Z",
+            "modified": "2025-02-23T19:48:56.774Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JiNjRiNDJkMzBiMDhjNTVkMjhhMWYiLCJpYXQiOjE3NDAzMzU2MjksImV4cCI6MTc0MDM1MzYyOX0.zqpJT7ordwItITl88hCvvgnotF3C2qqLvEHnecCOMmI"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"usuario\": \"67bb68e5f7886a22b2905eba\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "4n3fJIjnvub7PnMRogzfKDTjO9kaGpAGBCDHrAsjRZHLdqT6fa_pZlmjZn85twMkVz7PCLp-aw6hVLUB5qzPzg"
+}

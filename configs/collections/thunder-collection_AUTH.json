@@ -1,0 +1,45 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "AUTH",
+    "collectionId": "572d37ed-a394-447b-86c7-a42a3315896b",
+    "dateExported": "2025-02-23T19:23:30.737Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d130b1ba-9370-49e0-bc6f-bb988fbccf30",
+            "colId": "572d37ed-a394-447b-86c7-a42a3315896b",
+            "containerId": "",
+            "name": "register",
+            "url": "http://localhost:3000/gestorDeOpiniones/v1/auth/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-02-23T18:29:47.455Z",
+            "modified": "2025-02-23T18:56:49.741Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Ludvin\",\n  \"surname\": \"Gonzalez\",\n  \"username\": \"ludvin777\",\n  \"email\": \"ludvin777pro@gmail.com\",\n  \"password\": \"12345678\",\n  \"phone\": \"55667788\",\n  \"role\": \"USER_ROLE\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e1742bd3-d6b3-4e63-8d60-1b26955a91f3",
+            "colId": "572d37ed-a394-447b-86c7-a42a3315896b",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:3000/gestorDeOpiniones/v1/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-02-23T18:30:40.438Z",
+            "modified": "2025-02-23T18:33:49.606Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"Fercho\",\n  \"password\": \"Fercho2807\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "oVUuGlUBqxUovl8jQ5jkz9C4RTyDkXhBJU7M_FaD71XZIQTrTbnnlKq-GYwbPebDLcMzygl50jvirLmM3qNQ0w"
+}

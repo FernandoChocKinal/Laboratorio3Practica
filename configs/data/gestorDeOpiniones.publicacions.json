@@ -1,0 +1,47 @@
+[{
+  "_id": {
+    "$oid": "67bb77f12bad443ef791216a"
+  },
+  "titulo": "Gano la beca",
+  "texto": "Gano la beca para estudiar ingeniería en sistemas en MIT",
+  "categoria": {
+    "$oid": "67bb7216f7886a22b2905ecd"
+  },
+  "autor": {
+    "$oid": "67bb68e5f7886a22b2905eba"
+  },
+  "comentarios": [],
+  "createdAt": {
+    "$date": "2025-02-23T19:33:05.786Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-23T19:33:05.786Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bb787d2bad443ef7912170"
+  },
+  "titulo": "Vida Humana",
+  "texto": "La mejor forma de estar sanos es comer mas sano,",
+  "categoria": {
+    "$oid": "67bb728af7886a22b2905ed3"
+  },
+  "autor": {
+    "$oid": "67bb6f1bf7886a22b2905ec0"
+  },
+  "comentarios": [
+    {
+      "$oid": "67bb7abba5a0c5f57577e689"
+    },
+    {
+      "$oid": "67bb7ae8a5a0c5f57577e68f"
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-02-23T19:35:25.431Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-23T19:45:44.804Z"
+  }
+}]

@@ -1,0 +1,84 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "PUBLICACION",
+    "collectionId": "26b4729d-5e95-4baa-bd73-e39b4f239745",
+    "dateExported": "2025-02-23T19:41:21.993Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a2f8b841-8d3e-4bb5-bd2c-a0ef0626b3f5",
+            "colId": "26b4729d-5e95-4baa-bd73-e39b4f239745",
+            "containerId": "",
+            "name": "agregarPublicacion",
+            "url": "http://localhost:3000/gestorDeOpiniones/v1/Publicacion/agregarPublicacion",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-02-23T19:26:23.506Z",
+            "modified": "2025-02-23T19:35:25.439Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JiNjRiNDJkMzBiMDhjNTVkMjhhMWYiLCJpYXQiOjE3NDAzMzU2MjksImV4cCI6MTc0MDM1MzYyOX0.zqpJT7ordwItITl88hCvvgnotF3C2qqLvEHnecCOMmI"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"titulo\": \"Vida Humana\",\n  \"texto\": \"La mejor forma de estar sanos es comer mas sano,\",\n  \"categoria\": \"67bb728af7886a22b2905ed3\",\n  \"autor\": \"67bb6f1bf7886a22b2905ec0\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "1a942b65-685e-487e-bcc5-dfd679703b80",
+            "colId": "26b4729d-5e95-4baa-bd73-e39b4f239745",
+            "containerId": "",
+            "name": "listarPublicacion",
+            "url": "http://localhost:3000/gestorDeOpiniones/v1/Publicacion/listarPublicacion",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2025-02-23T19:26:41.423Z",
+            "modified": "2025-02-23T19:36:11.594Z",
+            "headers": []
+        },
+        {
+            "_id": "a075eec0-9a79-4e80-acf0-e435bbcadb67",
+            "colId": "26b4729d-5e95-4baa-bd73-e39b4f239745",
+            "containerId": "",
+            "name": "editarPublicacion",
+            "url": "http://localhost:3000/gestorDeOpiniones/v1/Publicacion/editarPublicacion/67bb78342bad443ef791216d",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2025-02-23T19:26:47.719Z",
+            "modified": "2025-02-23T19:39:13.236Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JiNjRiNDJkMzBiMDhjNTVkMjhhMWYiLCJpYXQiOjE3NDAzMzU2MjksImV4cCI6MTc0MDM1MzYyOX0.zqpJT7ordwItITl88hCvvgnotF3C2qqLvEHnecCOMmI"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"titulo\": \"GOT BACK TOUR\",\n  \"texto\": \"La gira no fue increible, fue LEGEN- esperalo... DARIA, LEGENDARIA\",\n  \"categoria\": \"67bb7251f7886a22b2905ed0\",\n  \"autor\": \"67bb64b42d30b08c55d28a1f\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "53bb4436-8f8d-465b-979f-91f6d61221d8",
+            "colId": "26b4729d-5e95-4baa-bd73-e39b4f239745",
+            "containerId": "",
+            "name": "eliminarPublicacion",
+            "url": "http://localhost:3000/gestorDeOpiniones/v1/Publicacion/eliminarPublicacion/67bb78342bad443ef791216d",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2025-02-23T19:27:05.927Z",
+            "modified": "2025-02-23T19:41:11.092Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JiNjRiNDJkMzBiMDhjNTVkMjhhMWYiLCJpYXQiOjE3NDAzMzU2MjksImV4cCI6MTc0MDM1MzYyOX0.zqpJT7ordwItITl88hCvvgnotF3C2qqLvEHnecCOMmI"
+                }
+            ]
+        }
+    ],
+    "ref": "KkoQ9TSBU4vS7d0tCKybMcBmTU5i2hmKToG3htZMzcKQZ01xsaiBngx276giDkp1a7O67rDL3IpOI8WWYPvoog"
+}

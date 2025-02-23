@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "67bb7ae8a5a0c5f57577e68f"
+  },
+  "texto": "Gracias por ese gradioso consejo",
+  "autor": {
+    "$oid": "67bb6f71f7886a22b2905ec4"
+  },
+  "publicacion": {
+    "$oid": "67bb787d2bad443ef7912170"
+  },
+  "createdAt": {
+    "$date": "2025-02-23T19:45:44.802Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-23T19:47:03.779Z"
+  }
+}]
