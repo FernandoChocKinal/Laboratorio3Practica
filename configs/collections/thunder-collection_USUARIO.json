@@ -1,0 +1,55 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "USUARIO",
+    "collectionId": "f69d19f9-7fc9-49ac-9219-f9c0a722374e",
+    "dateExported": "2025-02-23T19:24:02.024Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1385fca4-e4e2-40d5-89f7-ca57b2fc6a14",
+            "colId": "f69d19f9-7fc9-49ac-9219-f9c0a722374e",
+            "containerId": "",
+            "name": "actualizarContra",
+            "url": "http://localhost:3000/gestorDeOpiniones/v1/User/updatePassword/67bb6f1bf7886a22b2905ec0",
+            "method": "PATCH",
+            "sortNum": 10000,
+            "created": "2025-02-23T18:58:16.334Z",
+            "modified": "2025-02-23T19:01:35.812Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JiNjRiNDJkMzBiMDhjNTVkMjhhMWYiLCJpYXQiOjE3NDAzMzU2MjksImV4cCI6MTc0MDM1MzYyOX0.zqpJT7ordwItITl88hCvvgnotF3C2qqLvEHnecCOMmI"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"oldPassword\": \"56781111\",\n  \"newPassword\": \"11115678\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e66fa6de-2d91-4d3c-835d-e7fa52cac22b",
+            "colId": "f69d19f9-7fc9-49ac-9219-f9c0a722374e",
+            "containerId": "",
+            "name": "actualizarUsuario",
+            "url": "http://localhost:3000/gestorDeOpiniones/v1/User/updateUser/67bb6f71f7886a22b2905ec4",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2025-02-23T19:01:51.537Z",
+            "modified": "2025-02-23T19:05:09.593Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JiNjRiNDJkMzBiMDhjNTVkMjhhMWYiLCJpYXQiOjE3NDAzMzU2MjksImV4cCI6MTc0MDM1MzYyOX0.zqpJT7ordwItITl88hCvvgnotF3C2qqLvEHnecCOMmI"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Jose Luis\",\n  \"surname\": \"Rodriguez\",\n  \"username\": \"elPUMA\",\n  \"email\": \"elpuma1943@gmail.com\",\n  \"phone\": \"14011943\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "hvyawHJtL8UYiRAIq3V0pO-DCAoUvOkk4bk9uvezpjtZKdcCPyIdav8G5FvrGd7Rdn_E2P8_8t8a7FED3y2Weg"
+}

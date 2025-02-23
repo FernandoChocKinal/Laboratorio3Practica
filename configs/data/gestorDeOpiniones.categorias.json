@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "67bb7216f7886a22b2905ecd"
+  },
+  "nombre": "Tecnologia",
+  "descripcion": "Tecnologia en sistemas de computacion.",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-23T19:08:06.382Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-23T19:08:06.382Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bb7251f7886a22b2905ed0"
+  },
+  "nombre": "Musica",
+  "descripcion": "Estudo y practica de instrumentos musicales y teoria.",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-23T19:09:05.894Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-23T19:09:05.894Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bb728af7886a22b2905ed3"
+  },
+  "nombre": "Etica",
+  "descripcion": "Estudios de la moral y la naturaleza humana.",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-23T19:10:02.979Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-23T19:10:02.979Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bb72f2f7886a22b2905ed6"
+  },
+  "nombre": "Cultura Pop",
+  "descripcion": "Espacio para dar a conocer los momentos mas importantes de la cultura contemporanea.",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-23T19:11:46.902Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-23T19:11:46.902Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bb7322f7886a22b2905ed9"
+  },
+  "nombre": "Rock 'n' Roll",
+  "descripcion": "Espacio para los amantes del rock 'n' roll.",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-23T19:12:34.027Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-23T19:12:34.027Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67bb758c495d300914a88c3b"
+  },
+  "nombre": "Libros",
+  "descripcion": "Libros historicos e importantes",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-23T19:22:52.502Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-23T19:22:52.502Z"
+  }
+}]

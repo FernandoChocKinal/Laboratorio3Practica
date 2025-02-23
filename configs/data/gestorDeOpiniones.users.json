@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "67bb64b42d30b08c55d28a1f"
+  },
+  "name": "Fernando David",
+  "surname": "Choc Baltazar",
+  "username": "Fercho",
+  "email": "fchoc@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$wdX7Mo02sdqgNSQQnHZ5EA$XvxI5P8n8r+ayfZ0LwHtlAqFEQNPG8RH7LSAKO7NcLk",
+  "phone": "33664454",
+  "role": "ADMIN_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67bb68e5f7886a22b2905eba"
+  },
+  "name": "Pedro",
+  "surname": "Armas",
+  "username": "pedritoarmas",
+  "email": "armasp@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$XVkvXGYxjAsYa0ToP7vKiA$KZxLpMska4dqVXkrUnpNsnjT4YO7Hzm2XF5LMoW/FmY",
+  "phone": "10123040",
+  "role": "ADMIN_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67bb6f1bf7886a22b2905ec0"
+  },
+  "name": "Luis",
+  "surname": "Carrillo",
+  "username": "luisin",
+  "email": "luiscarrillo@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$8qdUr8OlStDsTwHsO7RsfQ$0XZsUjif+RMHbkWqgQ0L5OKx/6EUWshk7MuWaRyRfX0",
+  "phone": "11223344",
+  "role": "USER_ROLE",
+  "status": true
+},
+{
+  "_id": {
+    "$oid": "67bb6f71f7886a22b2905ec4"
+  },
+  "name": "Jose Luis",
+  "surname": "Rodriguez",
+  "username": "elPUMA",
+  "email": "elpuma1943@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$O3nETuzyRGfYxzDz19Bt8Q$aACt66TQFqkM/Zm8UxJACTGgxwOMYYQFvbwYwKpvOJE",
+  "phone": "14011943",
+  "role": "USER_ROLE",
+  "status": true
+}]
